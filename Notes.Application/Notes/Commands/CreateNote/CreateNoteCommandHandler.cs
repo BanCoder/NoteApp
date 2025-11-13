@@ -8,7 +8,7 @@ using Notes.Application.Interfaces;
 using Notes.Domain;
 namespace Notes.Application.Notes.Commands.CreateNote
 {
-	internal class CreateNoteCommandHandler: IRequestHandler<CreateNoteCommand, Guid>
+	public class CreateNoteCommandHandler: IRequestHandler<CreateNoteCommand, Guid>
 	{
 		private readonly INotesDbContext _dbContext; 
 		public CreateNoteCommandHandler(INotesDbContext dbContext) => _dbContext = dbContext;
@@ -23,6 +23,8 @@ namespace Notes.Application.Notes.Commands.CreateNote
 				CreationDate = DateTime.Now,
 				EditDate = null
 			};
+			await _dbContext.Notes.AddAsync (note, cancellationToken);
+			await _dbContext.SaveChangesAsync(cancellationToken);
 			return note.Id; 
 		}
 	}

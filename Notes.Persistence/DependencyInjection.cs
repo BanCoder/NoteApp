@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Notes.Application.Notes.Queries.GetNoteList
+namespace Notes.Persistence
 {
-	public class NoteListVm
+	internal class DependencyInjection
 	{
-		public IList<NoteLookupDto> Notes {  get; set; }
 	}
 }
