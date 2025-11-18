@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Notes.Application.Common.Mappings;
 using Notes.Application.Notes.Commands.CreateNote;
-using System.Diagnostics.SymbolStore;
 
 namespace Notes.WebApi.Models
 {
