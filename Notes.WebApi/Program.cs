@@ -4,6 +4,7 @@ using Notes.Application.Interfaces;
 using Notes.Persistence;
 using System.Reflection;
 using Notes.Application;
+using Notes.WebApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly(), typeof(INotesDbContext).Assembly);
@@ -34,6 +35,7 @@ using (var scope = app.Services.CreateScope())
 
 	}
 }
+app.UseCustomExceptionHandler(); 
 app.UseRouting();
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
