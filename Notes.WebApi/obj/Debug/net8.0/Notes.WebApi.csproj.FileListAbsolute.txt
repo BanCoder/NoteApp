@@ -75,3 +75,7 @@ C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Not
 C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.WebApi\obj\Debug\net8.0\ref\Notes.WebApi.dll
 C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.WebApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
