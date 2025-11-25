@@ -352,12 +352,21 @@
         "description": "Authorization token",
         "scheme": "bearer",
         "bearerFormat": "JWT"
+      },
+      "Authtoken 2.0": {
+        "type": "http",
+        "description": "Authorization token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
       }
     }
   },
   "security": [
     {
       "AuthToken 1.0": [ ]
+    },
+    {
+      "AuthToken 2.0": [ ]
     }
   ]
 }

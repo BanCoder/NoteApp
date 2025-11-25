@@ -10,3 +10,15 @@ C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Not
 C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.Domain\obj\Debug\net8.0\refint\Notes.Domain.dll
 C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.pdb
 C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\Notes.Backend\Notes.Domain\obj\Debug\net8.0\ref\Notes.Domain.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\bin\Debug\net8.0\Notes.Domain.deps.json
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\bin\Debug\net8.0\Notes.Domain.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\bin\Debug\net8.0\Notes.Domain.pdb
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.AssemblyInfoInputs.cache
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.AssemblyInfo.cs
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.sourcelink.json
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\refint\Notes.Domain.dll
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\Notes.Domain.pdb
+C:\Users\Vladimir\OneDrive\Desktop\Мои разработки\NotesApp\Notes.Backend\Notes.Domain\obj\Debug\net8.0\ref\Notes.Domain.dll
