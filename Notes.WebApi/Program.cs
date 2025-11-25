@@ -2,10 +2,15 @@ using Microsoft.Extensions.Hosting;
 using Notes.Application.Common.Mappings;
 using Microsoft.AspNetCore.Authentication.JwtBearer; 
 using Notes.Application.Interfaces;
+using Swashbuckle.AspNetCore.SwaggerGen; 
 using Notes.Persistence;
 using System.Reflection;
 using Notes.Application;
 using Notes.WebApi.Middleware;
+using Microsoft.Extensions.Options;
+using Notes.WebApi;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly(), typeof(INotesDbContext).Assembly);
@@ -30,14 +35,10 @@ builder.Services.AddAuthentication(config =>
 	options.Audience = "NotesWebAPI";
 	options.RequireHttpsMetadata = false;
 });
-builder.Services.AddSwaggerGen(config =>
-{
-
-	var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-	var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-	config.IncludeXmlComments(xmlPath);
-}); 
-
+builder.Services.AddVersionedApiExplorer(options => options.GroupNameFormat = "'v'VVV");
+builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
+builder.Services.AddSwaggerGen();
+builder.Services.AddApiVersioning(); 
 builder.Services.AddControllers();
 var app = builder.Build(); 
 
@@ -55,18 +56,23 @@ using (var scope = app.Services.CreateScope())
 		logger.LogError(ex, "An error occurred while app initialization");
 	}
 }
-app.UseSwagger();
-app.UseSwaggerUI(config =>
-{
-	config.RoutePrefix = string.Empty;
-	config.SwaggerEndpoint("swagger/v1/swagger.json","Notes API"); 
-}); 
 app.UseCustomExceptionHandler(); 
 app.UseRouting();
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseApiVersioning();
+app.UseSwagger();
+app.UseSwaggerUI(config =>
+{
+	var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+	foreach (var description in provider.ApiVersionDescriptions)
+	{
+		config.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
+		config.RoutePrefix = string.Empty;
+	}
+});
 app.MapControllers(); 
 app.MapGet("/", () => "Hello World!");
 
