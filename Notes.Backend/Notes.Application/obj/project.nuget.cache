@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SjEUvrFXjPw=",
+  "dgSpecHash": "yYnipS9ysYg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\Мои разработки\\NotesApp\\Notes.Backend\\Notes.Application\\Notes.Application.csproj",
+  "projectFilePath": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\Мои разработки\\NoteApp\\Notes.Backend\\Notes.Application\\Notes.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir\\.nuget\\packages\\automapper\\15.1.0\\automapper.15.1.0.nupkg.sha512",
     "C:\\Users\\Vladimir\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",

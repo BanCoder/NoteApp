@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X35gkfKhxPs=",
+  "dgSpecHash": "uCuQXQtjPuo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\Мои разработки\\NotesApp\\Notes.Backend\\Notes.WebApi\\Notes.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\Мои разработки\\NoteApp\\Notes.Backend\\Notes.WebApi\\Notes.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir\\.nuget\\packages\\automapper\\15.1.0\\automapper.15.1.0.nupkg.sha512",
     "C:\\Users\\Vladimir\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
