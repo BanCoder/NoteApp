@@ -9,7 +9,7 @@ namespace Notes.Identity
 		public static IEnumerable<ApiScope> ApiScopes =>
 			new List<ApiScope>
 			{
-				new ApiScope("NoteWebAPI", "Web API")
+				new ApiScope("NotesWebAPI", "Web API")
 			};
 		public static IEnumerable<IdentityResource> IdentityResources =>
 			new List<IdentityResource>
@@ -37,15 +37,15 @@ namespace Notes.Identity
 					RequirePkce = true, 
 					RedirectUris =
 					{
-						"http://.../signin-oidc"
+						"http://localhost:3000/signin-oidc"
 					}, 
 					AllowedCorsOrigins =
 					{
-						"http://..."
+						"http://localhost:3000"
 					}, 
 					PostLogoutRedirectUris =
 					{
-						"http:/.../signout-oidc"
+						"http://localhost:3000/signout-oidc"
 					}, 
 					AllowedScopes =
 					{

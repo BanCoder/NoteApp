@@ -1,62 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\",
+  "WorkspaceRootPath": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\data\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\data\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\notesapp\\notes.identity\\notes.identity\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\data\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\data\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\styles\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|c:\\users\\vladimir\\onedrive\\desktop\\\u043C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\noteapp\\notes.identity\\notes.identity\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79761B15-BF58-4F7A-83AA-60BCC7026E29}|Notes.Identity\\Notes.Identity.csproj|solutionrelative:notes.identity\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,176 +66,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "Notes.Identity\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Register.cshtml",
               "RelativeToolTip": "Notes.Identity\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-20T18:30:21.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Models\\RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Notes.Identity\\Models\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Models\\RegisterViewModel.cs",
               "RelativeToolTip": "Notes.Identity\\Models\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T18:21:49.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Styles\\app.css",
-              "RelativeDocumentMoniker": "Notes.Identity\\Styles\\app.css",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Styles\\app.css",
-              "RelativeToolTip": "Notes.Identity\\Styles\\app.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-20T17:50:39.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Notes.Identity\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Notes.Identity\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T17:43:24.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Notes.Identity\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Notes.Identity\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T17:36:16.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Notes.Identity\\Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "Notes.Identity\\Models\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:20:32.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Notes.Identity\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Notes.Identity\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAA6wEgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:19:02.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Notes.Identity\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Notes.Identity\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T18:04:02.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Data\\AppUserConfiguration.cs",
-              "RelativeDocumentMoniker": "Notes.Identity\\Data\\AppUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Data\\AppUserConfiguration.cs",
-              "RelativeToolTip": "Notes.Identity\\Data\\AppUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T17:27:41.543Z"
+              "WhenOpened": "2025-11-20T18:21:49.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Notes.Identity\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Models\\AppUser.cs",
-              "RelativeToolTip": "Notes.Identity\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T17:24:17.111Z"
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Styles\\app.css",
+              "RelativeDocumentMoniker": "Notes.Identity\\Styles\\app.css",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Styles\\app.css",
+              "RelativeToolTip": "Notes.Identity\\Styles\\app.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-20T17:50:39.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Data\\AuthDbContext.cs",
-              "RelativeDocumentMoniker": "Notes.Identity\\Data\\AuthDbContext.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Data\\AuthDbContext.cs",
-              "RelativeToolTip": "Notes.Identity\\Data\\AuthDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T17:20:19.285Z"
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Notes.Identity\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Notes.Identity\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:43:24.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Notes.Identity\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Notes.Identity\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:36:16.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\appsettings.json",
-              "RelativeDocumentMoniker": "Notes.Identity\\appsettings.json",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\appsettings.json",
-              "RelativeToolTip": "Notes.Identity\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-19T17:11:44.174Z"
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Notes.Identity\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Notes.Identity\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:20:32.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Configuration.cs",
-              "RelativeDocumentMoniker": "Notes.Identity\\Configuration.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Configuration.cs",
-              "RelativeToolTip": "Notes.Identity\\Configuration.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwDYAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Notes.Identity\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Notes.Identity\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwEgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T16:42:21.715Z"
+              "WhenOpened": "2025-11-20T17:19:02.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Notes.Identity\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Notes.Identity\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:04:02.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Data\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "Notes.Identity\\Data\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Data\\AppUserConfiguration.cs",
+              "RelativeToolTip": "Notes.Identity\\Data\\AppUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:27:41.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Notes.Identity\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Models\\AppUser.cs",
+              "RelativeToolTip": "Notes.Identity\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:24:17.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "Notes.Identity\\Data\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "Notes.Identity\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:20:19.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\appsettings.json",
+              "RelativeDocumentMoniker": "Notes.Identity\\appsettings.json",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\appsettings.json",
+              "RelativeToolTip": "Notes.Identity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T17:11:44.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Configuration.cs",
+              "RelativeDocumentMoniker": "Notes.Identity\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Configuration.cs",
+              "RelativeToolTip": "Notes.Identity\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:42:21.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Program.cs",
               "RelativeDocumentMoniker": "Notes.Identity\\Program.cs",
-              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NotesApp\\Notes.Identity\\Notes.Identity\\Program.cs",
+              "ToolTip": "C:\\Users\\Vladimir\\OneDrive\\Desktop\\\u041C\u043E\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438\\NoteApp\\Notes.Identity\\Notes.Identity\\Program.cs",
               "RelativeToolTip": "Notes.Identity\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T16:35:18.802Z"
+              "WhenOpened": "2025-11-19T16:35:18.802Z",
+              "EditorCaption": ""
             }
           ]
         }
