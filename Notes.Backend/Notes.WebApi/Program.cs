@@ -20,9 +20,10 @@ builder.Services.AddCors(options =>
 {
 	options.AddPolicy("AllowAll", policy =>
 	{
-		policy.AllowAnyHeader();
-		policy.AllowAnyMethod();
-		policy.AllowAnyOrigin();
+		policy.WithOrigins("http://localhost:3000")
+			 .AllowAnyHeader()
+			 .AllowAnyMethod()
+			 .AllowCredentials();
 	});
 });
 builder.Services.AddAuthentication(config =>
@@ -59,7 +60,7 @@ using (var scope = app.Services.CreateScope())
 app.UseCustomExceptionHandler(); 
 app.UseRouting();
 app.UseHttpsRedirection();
-app.UseCors("AllowAll");
+app.UseCors("AllowReact");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseApiVersioning();
