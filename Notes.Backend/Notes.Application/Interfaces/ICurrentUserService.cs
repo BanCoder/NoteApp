@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Notes.Application.Interfaces
 {
-	internal interface ICurrentUserService
+	public interface ICurrentUserService
 	{
+		Guid UserId { get; }
 	}
 }

@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Hosting;
 using Notes.Application.Common.Mappings;
+using Serilog.Events; 
 using Microsoft.AspNetCore.Authentication.JwtBearer; 
 using Notes.Application.Interfaces;
 using Swashbuckle.AspNetCore.SwaggerGen; 
@@ -11,8 +12,11 @@ using Microsoft.Extensions.Options;
 using Notes.WebApi;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+Log.Logger = new LoggerConfiguration().MinimumLevel.Override("Microsoft", LogEventLevel.Information).WriteTo.File("NotesWebAppLog-.txt", rollingInterval: RollingInterval.Day).CreateLogger();
+builder.Host.UseSerilog();
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly(), typeof(INotesDbContext).Assembly);
 builder.Services.AddApplication();
 builder.Services.AddPersistance(builder.Configuration);
@@ -39,7 +43,9 @@ builder.Services.AddAuthentication(config =>
 builder.Services.AddVersionedApiExplorer(options => options.GroupNameFormat = "'v'VVV");
 builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 builder.Services.AddSwaggerGen();
-builder.Services.AddApiVersioning(); 
+builder.Services.AddApiVersioning();
+builder.Services.AddSingleton<ICurrentUserService, ICurrentUserService>();
+builder.Services.AddHttpContextAccessor(); 
 builder.Services.AddControllers();
 var app = builder.Build(); 
 
@@ -53,14 +59,13 @@ using (var scope = app.Services.CreateScope())
 	}
 	catch (Exception ex)
 	{
-		var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
-		logger.LogError(ex, "An error occurred while app initialization");
+		Log.Fatal(ex, "An error occured while app initialization"); 
 	}
 }
 app.UseCustomExceptionHandler(); 
 app.UseRouting();
 app.UseHttpsRedirection();
-app.UseCors("AllowReact");
+app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseApiVersioning();
