@@ -11,13 +11,13 @@ namespace Notes.Application.Common.Behaviors
 {
 	public class LoggingBehavior<TRequest, TResponse>: IPipelineBehavior<TRequest, TResponse> where TRequest: IRequest<TResponse>
 	{
-		ICurrentUserService _currentUserService; 
+		private ICurrentUserService _currentUserService; 
 		public LoggingBehavior(ICurrentUserService currentUserService)
 		{
 			_currentUserService = currentUserService;
 		}
 
-		public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
+		public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
 		{
 			var requestName = typeof(TRequest).Name;
 			var userId = _currentUserService.UserId; 
