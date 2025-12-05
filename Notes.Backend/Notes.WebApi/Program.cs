@@ -1,18 +1,20 @@
-using Microsoft.Extensions.Hosting;
-using Notes.Application.Common.Mappings;
-using Serilog.Events; 
 using Microsoft.AspNetCore.Authentication.JwtBearer; 
-using Notes.Application.Interfaces;
-using Swashbuckle.AspNetCore.SwaggerGen; 
-using Notes.Persistence;
-using System.Reflection;
-using Notes.Application;
-using Notes.WebApi.Middleware;
-using Microsoft.Extensions.Options;
-using Notes.WebApi;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using Notes.Application;
+using Notes.Application.Common.Mappings;
+using Notes.Application.Interfaces;
+using Notes.Persistence;
+using Notes.WebApi;
+using Notes.WebApi.Middleware;
+using Notes.WebApi.Services; 
 using Serilog;
+using Serilog.Events; 
+using Swashbuckle.AspNetCore.SwaggerGen; 
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 Log.Logger = new LoggerConfiguration().MinimumLevel.Override("Microsoft", LogEventLevel.Information).WriteTo.File("NotesWebAppLog-.txt", rollingInterval: RollingInterval.Day).CreateLogger();
@@ -34,17 +36,50 @@ builder.Services.AddAuthentication(config =>
 {
 	config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
 	config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer("Bearer", options =>
+})
+.AddJwtBearer("Bearer", options =>
 {
 	options.Authority = "https://localhost:7096/";
 	options.Audience = "NotesWebAPI";
 	options.RequireHttpsMetadata = false;
+
+	// Добавьте эти настройки для отладки
+	options.TokenValidationParameters = new TokenValidationParameters
+	{
+		ValidateIssuer = true,
+		ValidIssuer = "https://localhost:7096",
+		ValidateAudience = true,
+		ValidAudience = "NotesWebAPI",
+		ValidateLifetime = true,
+		ClockSkew = TimeSpan.Zero // Убираем задержку для отладки
+	};
+
+	options.Events = new JwtBearerEvents
+	{
+		OnAuthenticationFailed = context =>
+		{
+			Console.WriteLine($"Authentication failed: {context.Exception.Message}");
+			return Task.CompletedTask;
+		},
+		OnTokenValidated = context =>
+		{
+			Console.WriteLine("Token validated successfully");
+			return Task.CompletedTask;
+		},
+		OnMessageReceived = context =>
+		{
+			// Логируем заголовок Authorization
+			var authHeader = context.Request.Headers["Authorization"].ToString();
+			Console.WriteLine($"Authorization header: {authHeader}");
+			return Task.CompletedTask;
+		}
+	};
 });
 builder.Services.AddVersionedApiExplorer(options => options.GroupNameFormat = "'v'VVV");
 builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 builder.Services.AddSwaggerGen();
 builder.Services.AddApiVersioning();
-builder.Services.AddSingleton<ICurrentUserService, ICurrentUserService>();
+builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddHttpContextAccessor(); 
 builder.Services.AddControllers();
 var app = builder.Build(); 
